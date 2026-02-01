@@ -80,7 +80,7 @@
   display: grid;
   margin-block-start: 20px;
   margin-inline-start: 25px;
-  margin-inline-end: 25px; 
+  margin-inline-end: 25px;
   gap: 25px;
 }
 
@@ -150,7 +150,7 @@
   transition: box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
-  justify-self: center;    
+  justify-self: center;
 }
 
 .floppy {
@@ -161,9 +161,6 @@
 
 .dialog-window .floppy {
   width: 39px;
-}
-
-.button-text__save {
 }
 
 .image-group {
@@ -283,12 +280,12 @@ dialog::backdrop {
   filter: brightness(80%) invert(1.5);
 }
 
-.card__like-button:focus, .save-button:focus, .ok-button:focus{
+.card__like-button:focus, .save-button:focus, .ok-button:focus {
   outline: none;
   box-shadow: 2px 2px 0 0 var(--font-main-color);
 }
 
-.card__like-button::before, .save-button::before, .ok-button::before  {
+.card__like-button::before, .save-button::before, .ok-button::before {
   content: '';
   position: absolute;
   left: 0;
